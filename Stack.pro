@@ -4,8 +4,7 @@ QT += qml quick
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    iystack.cpp \
-    iystack.cpp
+    sequence_stack.cpp
 
 RESOURCES += qml.qrc
 
@@ -32,4 +31,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    iystack.h
+    iystack.h \
+    sequence_stack.h
