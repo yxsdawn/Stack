@@ -4,6 +4,7 @@ QT += qml quick
 CONFIG += c++11
 
 SOURCES += main.cpp \
+    iystack.cpp \
     iystack.cpp
 
 RESOURCES += qml.qrc
