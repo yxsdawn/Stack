@@ -4,7 +4,8 @@ QT += qml quick
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    sequence_stack.cpp
+    sequence_stack.cpp \
+    datatrans.cpp
 
 RESOURCES += qml.qrc
 
@@ -32,4 +33,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     iystack.h \
-    sequence_stack.h
+    sequence_stack.h \
+    datatrans.h

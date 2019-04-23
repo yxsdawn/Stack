@@ -126,8 +126,6 @@ void SequenceStack :: Push(const int& elem)
         qDebug()<<QStringLiteral("堆栈已满");
         return;
     }
-
-
     m_top_index_++;
     m_pdata_[m_top_index_]=elem;
 }
@@ -139,5 +137,7 @@ int SequenceStack :: GetLength()
         qDebug()<<QStringLiteral("请先创建");
         return -1;
     }
+
     return m_top_index_+1;
 }
+

@@ -1,5 +1,13 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
+        <file>QML/Component/FHoverButton.qml</file>
+        <file>datatrans.cpp</file>
+        <file>datatrans.h</file>
+        <file>iystack.h</file>
+        <file>main.cpp</file>
+        <file>sequence_stack.cpp</file>
+        <file>sequence_stack.h</file>
+        <file>QML/Component/FToolTip.qml</file>
+        <file>QML/main.qml</file>
     </qresource>
 </RCC>
